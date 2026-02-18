@@ -6,6 +6,12 @@ A minesweeper in some language (and Python, the name come from here)
 >
 >And for that reason, the entire code is commented.
 
+- [Python version](#python)
+- [Lua version](#lua)
+- [Javascript, HTML, CSS (web) version](#javascript)
+- [Ruby version](#ruby)
+- [PHP version](#php)
+- [Kotlin version](#kotlin)
 
 # Python
 The first version is, of course, the Python version, available in two different versions:
@@ -28,4 +34,31 @@ Use enter to mine.
 Use the q key to quit
 
 ## Ui (tkinter)
+Not available yet.
+
+# Javascript
+A web version of the game.  
+You can find the js version here : [https://github.com/Jimmxyz/Minesweeper-CLI](https://github.com/Jimmxyz/Simple-Minesweeper)  
+You can play it here : [https://jimmxyz.github.io/Simple-Minesweeper/](https://jimmxyz.github.io/Simple-Minesweeper/)
+
+>[!CAUTION]
+>This version is not commented and may be difficult for beginners to read.
+
+# Kotlin
+This version is only a cli version.  
+Work on Linux and MacOS (Manual Install on Windows will work).  
+You can find the kotlin version here : [https://github.com/Jimmxyz/Minesweeper-CLI](https://github.com/Jimmxyz/Minesweeper-CLI)
+
+>[!CAUTION]
+>This version is not commented and may be difficult for beginners to read.
+
+# Ruby
+Not available yet.
+
+
+# Lua
+Not available yet.
+
+
+# PHP
 Not available yet.
