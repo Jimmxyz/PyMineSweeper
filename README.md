@@ -1,5 +1,5 @@
 # PyMineSweeper
-A minesweeper in python
+A minesweeper in some language (and Python, the name come from here)
 
 >[!IMPORTANT]
 >The sole purpose of this project is to provide examples that may be useful for learning purposes.
