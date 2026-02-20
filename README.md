@@ -28,4 +28,17 @@ Use enter to mine.
 Use the q key to quit
 
 ## Ui (tkinter)
-Not available yet.
+You can run the UI version by running the file `ui_code.py`.   
+
+It work on Linux, MacOS and Windows.  
+No lib needed.
+
+### The selector
+![alt text](img/tk_select.png)
+
+### The game
+![alt text](img/tk_in_game.png)
+
+### Key
+Use left click to mine.  
+Use right click to place or removed Flag.  
