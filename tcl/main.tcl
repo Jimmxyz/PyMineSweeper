@@ -20,12 +20,12 @@ set grid [gen_the_grid $width $height $prct]
 set cursor {0 0}
 
 proc print {type} {
-    global grid
+    global grid cursor
     set i_index 0
     foreach i $grid {
         set j_index 0
         foreach j $i {
-            puts -nonewline [colorize $j $i_index $j_index $type]
+            puts -nonewline [colorize $j $i_index $j_index $type $cursor]
             incr j_index
         }
         puts ""
