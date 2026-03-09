@@ -24,3 +24,15 @@ proc gen_the_grid {width height prctMine} {
     }
     return $grid
 }
+
+proc flagIt {grid i j} {
+    if {[lindex $grid $i $j] < 10} {
+        return $grid
+    } elseif {[lindex $grid $i $j] < 12} {
+        lset grid $i $j [expr [lindex $grid $i $j] + 2]
+        return $grid
+    } else {
+        lset grid $i $j [expr [lindex $grid $i $j] - 2]
+        return $grid
+    }
+}
